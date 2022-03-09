@@ -6,13 +6,13 @@ At each position of the grid there is either a space or a '#' character. The cha
 Passing this string to console.log should show something like this: 
 
 # # # #
+ # # # # 
 # # # # 
+ # # # # 
 # # # # 
+ # # # # 
 # # # # 
-# # # # 
-# # # # 
-# # # # 
-# # # # 
+ # # # # 
 
 Confused by example output above.
 Misunderstood that one string should be built to represent the board.
@@ -39,10 +39,9 @@ Book Solution:
 
 */
 
-
 console.log("creating chessboard...\n")
 
-let size = 2;
+let size = 8;
 let width = size;
 let string = '';
 
